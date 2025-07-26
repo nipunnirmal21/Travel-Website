@@ -1,1 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Miniver&family=Montserrat:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+input,
+button,
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+body{
+    background-color: var(--body-color);
+    color:var(--text-color);
+    transition: background-color .4s;
+}
+input,
+button{
+    outline:none;
+    border: none;
+}
+h1 , h2, h3, h4 {
+    font-weight: var(--font-semi-bold);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
+section{
+    padding-block:5rem 1rem ;
+}
+.section__title{
+    font-size: var(--big-font-size);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main{
+    overflow: hidden;
+}
